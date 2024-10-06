@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1.2em;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+}
+body {
+    width: 80%;
+    margin: auto;
+    background-color: darkslategray;
+    color: white;
+}
+h1, h2, h3{
+    text-align: center;
+    padding: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+.players {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2.5em;
+}
+img {
+    margin-top: 0.8em;
+    transition: all ease 3s;
+}
+#checkwinner {
+    text-align: center;
+    font-size: 1.2em;
+    color: green;
+} 
+.button1 {
+    padding: 6px 12px;
+    border-radius: 12px;
+    color: white;
+    border: 2px solid gold;
+    outline: none;
+    background-color: green;
+}
+.button1:hover {
+    opacity: 0.8;
+}
+.counts {
+    display: flex;
+    justify-content: space-around;
+}
+.buttons {
+    display: flex;
+    justify-content: space-around;
+} 
+.exitbutton {
+    padding: 6px 12px;
+    border-radius: 12px;
+    color: white;
+    border: 2px solid gold;
+    outline: none;
+    background-color: red;
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+    img {
+        width: 200px;
+        height: 200px;
+    }
+    .button1 {
+        margin-top: 20px;
+    }
+    .exitbutton {
+        margin-top: 20px;
+    }
+}
+
+
+
+@media (max-width: 600px) {
+    img {
+        width: 150px;
+        height: 150px;
+    }
+    .button1 {
+        margin-top: 20px;
+    }
+    .exitbutton {
+        margin-top: 20px;
+    }
+}
+
+
